@@ -16,9 +16,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full md:w-[300px] lg:w-[250px]"
       >
-        <div className="relative w-full h-[230px] sm:h-[200px]">
+        <div className="relative w-full h-[230px] sm:h-[200px] md:h-[180px] lg:h-[150px]">
           <img
             src={image}
             alt={name}
@@ -39,13 +39,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px] sm:text-[20px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] sm:text-[12px]">{description}</p>
+          <h3 className="text-white font-bold text-[24px] sm:text-[20px] md:text-[18px] lg:text-[16px]">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px] sm:text-[12px] md:text-[10px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] sm:text-[12px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[14px] sm:text-[12px] md:text-[10px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
