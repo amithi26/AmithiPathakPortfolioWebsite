@@ -48,6 +48,7 @@ import bot from "./bot.png";
 import hummer from "./hummer.png";
 import painter from "./painter.png";
 import dystopian from "./dystopian.png";
+import pixelEffect from "./pixelEffect.png";
 import externallink from "./external-link.png";
 
 export {
@@ -94,5 +95,6 @@ export {
   hummer,
   painter,
   dystopian,
+  pixelEffect,
   externallink
 };

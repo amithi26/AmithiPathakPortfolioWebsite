@@ -38,6 +38,7 @@ import {
     hummer,
     painter,
     dystopian,
+    pixelEffect,
     externallink
   } from "../assets";
   
@@ -262,6 +263,23 @@ import {
       ],
       image: bot,
       source_code_link: "https://drive.google.com/drive/folders/1_hGu-Yv-j4erPzskuojgiDkbJEV-g6qC?usp=sharing",
+    },
+    {
+      name: "Disco-Pixel Effect with Webcam Feed",
+      description:
+        "Real-time pixelation effect for webcam video using Python and OpenCV, with interactive controls for grid size and color channels. Users can adjust the pixel grid and toggle color channels (red, green, blue) while applying a customizable filled or unfilled circle pattern for the effect.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "green-text-gradient",
+        },
+      ],
+      image: pixelEffect,
+      source_code_link: "https://github.com/amithi26/Webcam-Effects",
     },
     {
       name: "Hummer",
