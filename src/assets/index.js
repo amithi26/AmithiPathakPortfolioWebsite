@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import blender from "./tech/Blender.png";
 
 import java from "./tech/java.png";
 import python from "./tech/python.svg";
@@ -50,6 +51,9 @@ import painter from "./painter.png";
 import dystopian from "./dystopian.png";
 import pixelEffect from "./pixelEffect.png";
 import externallink from "./external-link.png";
+import swipeConnect from "./swipeConnect.png";
+import gameControlStation from "./lobby.png";
+import puff from "./puff_preview.png";
 
 export {
   logo,
@@ -96,5 +100,9 @@ export {
   painter,
   dystopian,
   pixelEffect,
-  externallink
+  externallink,
+  blender,
+  swipeConnect,
+  gameControlStation,
+  puff
 };

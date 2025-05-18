@@ -35,8 +35,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         I am a computer science student passionate about blending creativity and technology to build engaging digital experiences.
-        My expertise spans software development with tools like Android Studio, JavaFX, Three.js, and React.js alongside data science and machine learning skills using SQL, Python/PyTorch, R, and more.
-        Beyond code, I explore storytelling through 3D visuals, VFX, graphic design, film, and traditional art. Dive in to see how I merge technical precision with artistic vision!
+        My expertise spans software development with tools like React.js, Android Studio, Three.js, and JavaFX alongside data science and machine learning skills using SQL, Python/PyTorch, R, and more.
+        Beyond code, I explore storytelling through 3D visuals, VFX, graphic design, film, and traditional art. Scroll on to see how I merge technical precision with artistic vision!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
