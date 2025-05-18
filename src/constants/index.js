@@ -376,23 +376,6 @@ import {
       image: projectImages.dystopian,
       source_code_link: "https://vimeo.com/1037275982?share=copy",
     },
-    {
-      name: "\"The Painter\"",
-      description:
-        "Production design, development, & cinematography for a short psychological drama. Executed camera operations and designed sets to reinforce thematic elements, achieving a nuanced and immersive aesthetic.",
-      tags: [
-        {
-          name: "AcrylicArt",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Cinematography",
-          color: "green-text-gradient",
-        },
-      ],
-      image: projectImages.painter,
-      source_code_link: "https://youtu.be/mQ2ftOX-IUQ?si=RZWnIUva2MpVjSVu",
-    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

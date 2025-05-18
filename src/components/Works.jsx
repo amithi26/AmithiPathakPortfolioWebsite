@@ -126,10 +126,8 @@ const Works = () => {
           No projects found. Please check your projects data or browser console for errors.
         </p>
       )}
-      
     </>
   )
 }
-
 
 export default SectionWrapper(Works, "projects");
