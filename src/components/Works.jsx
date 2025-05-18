@@ -8,13 +8,12 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
-  // Limit animation delay for better performance with many projects
-  const safeIndex = Math.min(index, 9); // Cap at 9 to avoid excessive delays
+  const safeIndex = Math.min(index, 9);
   
   return (
     <motion.div 
       variants={fadeIn("up", "spring", safeIndex * 0.2, 0.75)}
-      className="w-full sm:w-[350px]" // Added width control at this level
+      className="w-full sm:w-[350px]"
     >
       <Tilt
         options={{
@@ -29,6 +28,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
+            onError={(e) => {
+              e.target.onerror = null; 
+              e.target.src = 'https://via.placeholder.com/350x230?text=Project+Image'
+            }}
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -62,31 +65,33 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 }
 
 const Works = () => {
+  const [isLoading, setIsLoading] = useState(true);
   const [displayedProjects, setDisplayedProjects] = useState([]);
 
   useEffect(() => {
-    // Ensure the projects array is valid
-    if (!Array.isArray(projects)) {
-      console.error("Projects is not an array:", projects);
-      return;
-    }
+    const loadProjects = async () => {
+      try {
+        // Add a small delay to ensure all assets are loaded
+        await new Promise(resolve => setTimeout(resolve, 100));
+        
+        if (Array.isArray(projects)) {
+          const validProjects = projects.filter(project => 
+            project && 
+            project.name && 
+            project.description && 
+            project.image && 
+            project.source_code_link
+          );
+          setDisplayedProjects(validProjects);
+        }
+      } catch (error) {
+        console.error("Error loading projects:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
 
-    try {
-      // Safely process projects
-      const validProjects = projects.filter(project => 
-        project && 
-        project.name && 
-        project.description && 
-        project.image && 
-        project.source_code_link
-      );
-      
-      console.log(`Filtering ${projects.length} projects, found ${validProjects.length} valid ones`);
-      setDisplayedProjects(validProjects);
-    } catch (error) {
-      console.error("Error processing projects:", error);
-      setDisplayedProjects([]);
-    }
+    loadProjects();
   }, []);
 
   return (
@@ -107,29 +112,29 @@ const Works = () => {
         </motion.p>
       </div>
       
-      <div className="mt-20 flex flex-wrap gap-7 justify-center sm:justify-start">
-        {displayedProjects.length > 0 ? (
-          displayedProjects.map((project, index) => (
-            <ProjectCard 
-              key={`project-${index}`}
-              index={index}
-              {...project}
-            />
-          ))
-        ) : (
-          <p className="text-white">Loading projects...</p>
-        )}
-      </div>
-      
-      {displayedProjects.length === 0 && (
-        <p className="text-secondary mt-5">
-          No projects found. Please check your projects data or browser console for errors.
-        </p>
+      {isLoading ? (
+        <div className="mt-20 flex justify-center items-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary" />
+        </div>
+      ) : (
+        <>
+          <div className="mt-20 flex flex-wrap gap-7 justify-center sm:justify-start">
+            {displayedProjects.length > 0 ? (
+              displayedProjects.map((project, index) => (
+                <ProjectCard 
+                  key={`project-${index}`}
+                  index={index}
+                  {...project}
+                />
+              ))
+            ) : (
+              <p className="text-white">No projects found.</p>
+            )}
+          </div>
+        </>
       )}
-      
     </>
   )
 }
-
 
 export default SectionWrapper(Works, "projects");
