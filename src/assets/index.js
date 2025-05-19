@@ -32,6 +32,9 @@ import C from "./tech/C.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import aswf from "./company/academysoftwarefoundation.png";
+import winlab from "./company/winlab.png";
+
 
 import rutgers from "./company/rutgers.png";
 import hackru from "./company/hackru.png";
@@ -104,5 +107,7 @@ export {
   blender,
   swipeConnect,
   gameControlStation,
-  puff
+  puff,
+  aswf,
+  winlab
 };

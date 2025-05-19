@@ -32,7 +32,9 @@ import {
     aftereffects,
     R,
     C,
-    blender
+    blender,
+    aswf,
+    winlab
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -130,6 +132,29 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Summer Learning Mentee",
+      company_name: "Academy Software Foundation",
+      icon: aswf,
+      iconBg: "#E6DEDD",
+      date: "June 2025 - Current",
+      points: [
+        "Among 20 individuals accepted worldwide to explore open-source software development for visual effects and animation in film.",
+        "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology, including Python Development in Maya.",
+        "Program in collaboration with the Academy of Motion Picture Arts and Sciences and Linux."
+      ],
+    },
+    {
+      title: "AR Research Intern",
+      company_name: "WINLAB Rutgers",
+      icon: winlab,
+      iconBg: "#E6DEDD",
+      date: "May 2025 - Current",
+      points: [
+        "Working on a collaborative augmented reality 3D sculpting and modeling tool.",
+        "Use of C++, C# through Unity.",
+      ],
+    },
     {
       title: "Research Assistant",
       company_name: "Laboratory for Interactive Virtual Enviornments",
