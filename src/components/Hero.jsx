@@ -11,23 +11,23 @@ const Hero = () => {
       >
         {/* Violet gradient line */}
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#bb00ff] shadow-[0_0_10px_2px_rgba(204,16,51,0.5)]" />
+          <div className="w-1 sm:h-80 h-40 pink-gradient " />
         </div>
 
         {/* Text content */}
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Amithi!</span>
+          <h1 className={`${styles.heroHeadText} text-[#f5d5b5]-100`}>
+            Hi, I'm <span className="text-[#b700ff]">Amithi!</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 mb-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 mb-2 text-[#f5d5b5]-100`}>
             I create designs, solutions, and experiences.
           </p>
           <a
             href="https://drive.google.com/file/d/1BK5fE8iTFasE4xzlWx_Wwj9oMmVzSdpU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-block px-6 py-3 bg-[#915eff] text-white text-lg font-medium rounded-md hover:bg-[#7a47e2] transition duration-300"
+            className="mt-5 inline-block px-6 py-3 bg-[#bb00ff] bg-opacity-40 border-2 border-[#fc7805] border-opacity-0 text-white text-lg font-medium rounded-lg hover:shadow-[0_0_15px_4px_rgba(204,16,51,0)] hover:bg-[#b700ff] hover:bg-opacity-80 transition duration-300"
           >
             View My Resume
           </a>
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       {/* ComputersCanvas component */}
-      <ComputersCanvas className="z-10" />
+      {/* <ComputersCanvas className="z-10" /> */}
 
       {/* Scroll animation */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-30">

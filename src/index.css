@@ -42,10 +42,43 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
+.pink-gradient {
+  background: #bb00ff;
+  background: linear-gradient(-90deg, #bb00ff 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #bb00ff 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+.blue-gradient {
+  background: #3d30f2;
+  background: linear-gradient(-90deg, #3d30f2 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #3d30f2 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+.yellow-gradient {
+  background: #f78f28;
+  background: linear-gradient(-90deg, #f78f28 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #f78f28 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.orange-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #ffa958 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #fa1707 1.9%, #8a57ff 97.5%);
+}
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #2d00ce 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
