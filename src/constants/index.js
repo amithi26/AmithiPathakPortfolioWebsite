@@ -140,7 +140,7 @@ import {
       date: "June 2025 - Current",
       points: [
         "Among 20 individuals accepted worldwide to explore open-source software development for visual effects and animation in film.",
-        "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology, including Python Development in Maya.",
+        "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology, including Houdini and Python Development in Maya.",
         "Program in collaboration with the Academy of Motion Picture Arts and Sciences and Linux."
       ],
     },
@@ -151,8 +151,8 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2025 - Current",
       points: [
-        "Working on a collaborative augmented reality 3D sculpting and modeling tool.",
-        "Use of C++, C# through Unity.",
+        "Developing a collaborative AR art & 3D modeling platform using Unity and C# scripting, implementing multi-user drawing spaces, undo/redo functionality, and MQTT server integration for real-time interaction.",
+        "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
       ],
     },
     {
@@ -269,7 +269,7 @@ import {
     {
       name: "Puff",
       description:
-        "3D animated short film created over the course of three weeks. Modeling, shading/texturing, rigging, look development, animation done using Blender. Editing in CapCut.",
+        "End-to-end production in Blender for the course of three weeks. Scripted and storyboarded scenes, modeled and shaded 15+ assets, built rigs,and animated a 2-minute short film.",
       tags: [
         {
           name: "Blender",

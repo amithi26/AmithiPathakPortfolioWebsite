@@ -24,7 +24,7 @@ const Hero = () => {
             I create designs, solutions, and experiences.
           </p>
           <a
-            href="https://drive.google.com/file/d/1BK5fE8iTFasE4xzlWx_Wwj9oMmVzSdpU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1s1Kk1wfCRU7quF8isX1ddtpqYymMFF64/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-5 inline-block px-6 py-3 bg-[#915eff] text-white text-lg font-medium rounded-md hover:bg-[#7a47e2] transition duration-300"
