@@ -24,7 +24,7 @@ const Computers = ({isMobile, isNarrowScreen}) => {
 
   const getPosition = () => {
     if (isMobile) return [0, 1.5, -.9];
-    if (isNarrowScreen) return [6, -1.15, .62];
+    if (isNarrowScreen) return [6, -1.15, .1];
     return [12.5, 0, 1];
   };
 
