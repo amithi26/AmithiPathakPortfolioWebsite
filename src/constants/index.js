@@ -67,12 +67,12 @@ import {
       icon: web,
     },
     {
-      title: "Data Science",
-      icon: creator,
+      title: "VFX & Animation",
+      icon: backend,
     },
     {
-      title: "VFX•Film•Art",
-      icon: backend,
+      title: "Data Science",
+      icon: creator,
     },
   ];
   

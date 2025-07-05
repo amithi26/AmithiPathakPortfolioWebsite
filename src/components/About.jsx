@@ -34,9 +34,15 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a computer science student passionate about blending creativity and technology to build engaging digital experiences.
-        My expertise spans software development with tools like React.js, Android Studio, Three.js, and JavaFX alongside data science and machine learning skills using SQL, Python/PyTorch, R, and more.
-        Beyond code, I explore storytelling through 3D visuals, VFX, graphic design, film, and traditional art. Scroll on to see how I merge technical precision with artistic vision!
+        I am a computer science student with a passion for blending technology, storytelling, and visual art to build immersive digital experiences.
+        As both a developer and artist, I strive to build intuitive, expressive tools and worlds that bridge creativity and code—
+        from developing real-time AR platforms and games to producing animated films and designing brand visuals. 
+        <br />
+        My technical toolkit spans development using React, Unity, Three.js, and Android Studio along with Python, SQL, R, and more. Beyond traditional software development, I explore storytelling
+        and creative tool development using Figma and DCCs like Blender, Maya, Houdini, Adobe Creative Suite, and Resolve.
+        <br />
+        Scroll on to see where logic meets magic!
+        
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
