@@ -14,7 +14,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   return (
     <motion.div 
       variants={fadeIn("up", "spring", safeIndex * 0.2, 0.75)}
-      className="w-full sm:w-[350px]" // Added width control at this level
+      className="w-full max-w-[350px] mx-auto sm:mx-0" // Center on mobile, left-align on larger screens
     >
       <Tilt
         options={{
@@ -22,18 +22,18 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl w-full h-full"
+        className="bg-tertiary p-4 sm:p-5 rounded-2xl w-full h-full min-h-[380px] flex flex-col" // Added responsive padding and min-height
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[200px] sm:h-[230px] flex-shrink-0"> {/* Responsive image height */}
           <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-2 sm:m-3 card-img_hover"> {/* Responsive margin */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-8 h-8 sm:w-10 sm:h-10 rounded-full flex justify-center items-center cursor-pointer" // Responsive button size
             >
               <img 
                 src={externallink}
@@ -44,14 +44,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
         </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <div className="mt-4 sm:mt-5 flex-grow"> {/* Responsive margin and flex-grow for equal height */}
+          <h3 className="text-white font-bold text-[20px] sm:text-[24px] leading-tight">{name}</h3> {/* Responsive font size */}
+          <p className="mt-2 text-secondary text-[13px] sm:text-[14px] leading-relaxed">{description}</p> {/* Responsive font size */}
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2"> {/* Responsive margins and gaps */}
           {tags && tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[12px] sm:text-[14px] ${tag.color}`}> {/* Responsive tag font size */}
               #{tag.name}
             </p>
           ))}
@@ -99,7 +99,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[26px] sm:leading-[30px]" // Responsive font size and line height
         >
           Explore my programming and creative projects, where I demonstrate my skills through real-world applications. 
           Each project is accompanied by a brief description, along with links, videos, 
@@ -107,7 +107,8 @@ const Works = () => {
         </motion.p>
       </div>
       
-      <div className="mt-20 flex flex-wrap gap-7 justify-center sm:justify-start">
+      {/* Updated grid layout for better mobile experience */}
+      <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-7 px-2 sm:px-0">
         {displayedProjects.length > 0 ? (
           displayedProjects.map((project, index) => (
             <ProjectCard 
@@ -117,14 +118,18 @@ const Works = () => {
             />
           ))
         ) : (
-          <p className="text-white">Loading projects...</p>
+          <div className="col-span-full text-center">
+            <p className="text-white text-base sm:text-lg">Loading projects...</p>
+          </div>
         )}
       </div>
       
       {displayedProjects.length === 0 && (
-        <p className="text-secondary mt-5">
-          No projects found. Please check your projects data or browser console for errors.
-        </p>
+        <div className="text-center mt-5 px-4">
+          <p className="text-secondary text-sm sm:text-base">
+            No projects found. Please check your projects data or browser console for errors.
+          </p>
+        </div>
       )}
     </>
   )
