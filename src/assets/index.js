@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import softdev from "./softdev_icon.png";
+import design from "./graphicdesign.png";
+import vfx from "./vfx.png";
+import datascience from "./datascience.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -19,8 +23,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import blender from "./tech/Blender.png";
+import maya from "./tech/maya.png";
+import unity from "./tech/unity.webp";
+import houdini from "./tech/houdini.png";
 
 import java from "./tech/java.png";
 import python from "./tech/python.svg";
@@ -28,6 +35,9 @@ import sql from "./tech/sql.png";
 import aftereffects from "./tech/aftereffects.png";
 import R from "./tech/R.png";
 import C from "./tech/C.png";
+import csharp from "./tech/csharp.svg";
+import pytorch from "./tech/pytorch.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -109,5 +119,14 @@ export {
   gameControlStation,
   puff,
   aswf,
-  winlab
+  winlab,
+  softdev,
+  design,
+  vfx,
+  datascience,
+  maya,
+  csharp,
+  unity,
+  pytorch,
+  houdini
 };

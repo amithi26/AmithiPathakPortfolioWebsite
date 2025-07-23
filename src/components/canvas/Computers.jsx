@@ -89,7 +89,7 @@ const ComputersCanvas = () => {
       frameloop="always"
       shadows
       camera={{
-        position: isMobile ? [15, 3, 5] : isNarrowScreen ? [12, 3, 5] : [20, 3, 5], 
+        position: isMobile ? [15, 3, 5] : isNarrowScreen ? [12, 3, 5] : [20, -5, 5], 
         fov: isMobile ? 35 : isNarrowScreen ? 30 : 25
       }}
       gl={{preserveDrawingBuffer: true}}
@@ -98,7 +98,7 @@ const ComputersCanvas = () => {
         <OrbitControls 
           enableZoom={false} 
           maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 3}
         />
         <Computers isMobile={isMobile} isNarrowScreen={isNarrowScreen}/>
       </Suspense>

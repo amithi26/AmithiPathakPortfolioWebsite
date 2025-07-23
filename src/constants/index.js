@@ -34,7 +34,16 @@ import {
     C,
     blender,
     aswf,
-    winlab
+    winlab,
+    softdev,
+    design,
+    vfx,
+    datascience,
+    maya,
+    csharp,
+    unity,
+    houdini,
+    pytorch
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -45,7 +54,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "tech",
+      title: "Tech",
     },
     {
       id: "projects",
@@ -60,23 +73,31 @@ import {
   const services = [
     {
       title: "Software Development",
-      icon: mobile,
+      icon: softdev,
     },
     {
       title: "UI/UX & Graphic Design",
-      icon: web,
+      icon: design,
     },
     {
       title: "VFX & Animation",
-      icon: backend,
+      icon: vfx,
     },
     {
       title: "Data Science",
-      icon: creator,
+      icon: datascience,
     },
   ];
   
   const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "PyTorch",
+      icon: pytorch,
+    },
     {
       name: "Java",
       icon: java,
@@ -86,15 +107,15 @@ import {
       icon: javascript,
     },
     {
-      name: "Python",
-      icon: python,
-    },
-    {
       name: "HTML 5",
       icon: html,
     },
     {
-      name: "React JS",
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "React",
       icon: reactjs,
     },
     {
@@ -106,15 +127,19 @@ import {
       icon: sql,
     },
     {
-      name: "blender",
+      name: "Blender",
       icon: blender
+    },
+    {
+      name: "Maya",
+      icon: maya
     },
     {
       name: "After Effects",
       icon: aftereffects,
     },
     {
-      name: "Three JS",
+      name: "Three.js",
       icon: threejs,
     },
     {
@@ -122,12 +147,28 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "c",
+      name: "C",
       icon: C,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Unity",
+      icon: unity,
+    },
+    {
+      name: "Houdini",
+      icon: houdini,
     },
   ];
   
@@ -151,8 +192,8 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2025 - Current",
       points: [
-        "Working on a collaborative augmented reality 3D sculpting and modeling tool.",
-        "Use of C++, C# through Unity.",
+        "Developing a collaborative AR art & 3D modeling platform using Unity and C# scripting, implementing multi-user drawing spaces, undo/redo functionality, and MQTT server integration for real-time interaction.",
+        "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
       ],
     },
     {
@@ -227,15 +268,15 @@ import {
       tags: [
         {
           name: "ReactNative",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "TypeScript",
-          color: "green-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "Jira",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: projectImages.swipeConnect,
@@ -248,19 +289,19 @@ import {
       tags: [
         {
           name: "JavaScript",
-          color: "blue-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "Three.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "HTML",
           color: "pink-text-gradient",
         },
         {
+          name: "HTML",
+          color: "violet-text-gradient",
+        },
+        {
           name: "Blender",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: projectImages.gameControlStation,
@@ -269,16 +310,12 @@ import {
     {
       name: "Puff",
       description:
-        "3D animated short film created over the course of three weeks. Modeling, shading/texturing, rigging, look development, animation done using Blender. Editing in CapCut.",
+        "3D animated short film created over the course of three weeks. Modeling, shading/texturing, rigging, look development, animation done using Blender.",
       tags: [
         {
           name: "Blender",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
-        {
-          name: "CapCut",
-          color: "green-text-gradient",
-        }
       ],
       image: projectImages.puff,
       source_code_link: "https://vimeo.com/1083689911/815addab70",
@@ -290,15 +327,15 @@ import {
       tags: [
         {
           name: "Figma",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "GoogleForms",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "GoogleSheets",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: projectImages.hummer,
@@ -311,11 +348,11 @@ import {
       tags: [
         {
           name: "PostgreSQL",
-          color: "blue-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "Java",
-          color: "green-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "JDBC",
@@ -332,41 +369,41 @@ import {
       tags: [
         {
           name: "Python",
-          color: "blue-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "PyTorch",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "GoogleSheets",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: projectImages.bot,
       source_code_link: "https://drive.google.com/drive/folders/1_hGu-Yv-j4erPzskuojgiDkbJEV-g6qC?usp=sharing",
     },
-    {
-      name: "RU Pizzeria",
-      description:
-        "Android-based application to manage pizza orders, enabling staff to take, customize, and track orders efficiently. Implemented features for dynamic subtotal calculation and customizable 'Build Your Own' pizzas. Ensured an intuitive GUI for selecting pizza styles, sizes, and toppings, while maintaining real-time order updates.",
-      tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "AndroidStudio",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaFX",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: projectImages.rupizzeria,
-      source_code_link: "https://gitfront.io/r/amithi26/njnkUH98Tc8t/rupizzaapp3/",
-    },
+    // {
+    //   name: "RU Pizzeria",
+    //   description:
+    //     "Android-based application to manage pizza orders, enabling staff to take, customize, and track orders efficiently. Implemented features for dynamic subtotal calculation and customizable 'Build Your Own' pizzas. Ensured an intuitive GUI for selecting pizza styles, sizes, and toppings, while maintaining real-time order updates.",
+    //   tags: [
+    //     {
+    //       name: "Java",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "AndroidStudio",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "JavaFX",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: projectImages.rupizzeria,
+    //   source_code_link: "https://gitfront.io/r/amithi26/njnkUH98Tc8t/rupizzaapp3/",
+    // },
     {
       name: "Disco-Pixel Effect with Webcam Feed",
       description:
@@ -374,11 +411,11 @@ import {
       tags: [
         {
           name: "Python",
-          color: "blue-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "OpenCV",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
       ],
       image: projectImages.pixelEffect,
@@ -391,11 +428,11 @@ import {
       tags: [
         {
           name: "AfterEffects",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "Cinematography",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: projectImages.dystopian,

@@ -38,8 +38,6 @@ const About = () => {
         As both a developer and artist, I strive to build intuitive, expressive tools and worlds that bridge creativity and code—
         from developing real-time AR platforms and games to producing animated films and designing brand visuals. 
         <br />
-        My technical toolkit spans development using React, Unity, Three.js, and Android Studio along with Python, SQL, R, and more. Beyond traditional software development, I explore storytelling
-        and creative tool development using Figma and DCCs like Blender, Maya, Houdini, Adobe Creative Suite, and Resolve.
         <br />
         Scroll on to see where logic meets magic!
         
