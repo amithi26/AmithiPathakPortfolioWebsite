@@ -181,7 +181,10 @@ import {
       date: "June 2025 - Current",
       points: [
         "Among 20 individuals accepted worldwide to explore open-source software development for visual effects and animation in film.",
-        "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology, including Python Development in Maya.",
+        "Mentored and attended talks by industry professionals from leading studios such as ILM, Pixar, Disney, DreamWorks, CoSA VFX.",
+        "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology.",
+        "Developed a procedural modeling tool for tree branches for Maya using PyQt libraries and Python scripting.",
+        "Developed a procedural turntable tool in Houdini for dynamic enviornment and lighting setups.",
         "Program in collaboration with the Academy of Motion Picture Arts and Sciences and Linux."
       ],
     },
@@ -192,7 +195,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2025 - Current",
       points: [
-        "Developing a collaborative AR art & 3D modeling platform using Unity and C# scripting, implementing multi-user drawing spaces, undo/redo functionality, and MQTT server integration for real-time interaction.",
+        "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
+        "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a  in a Linux VM for real-time interaction.",
+        "Restructure of existing database (LevelDB) to accommodate newer features such as multiple drawing spaces.",
+        "Presented weekly progress updates to supervisors and stakeholders, monitoring project milestones.",
         "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
       ],
     },
@@ -204,7 +210,7 @@ import {
       date: "May 2024 - September 2024",
       points: [
         "Study of contact simulation in rigid body simulations using 3D graphics.",
-        "Use of Dafny to prove correctness of the widely used physics-based skinning algorithm based on dual quaternions.",
+        "Use of Dafny to prove correctness of the widely used physics-based skinning algorithm based on quaternions.",
         "Explored and applied 3D character animation utilizing Three.js and HTML.",
       ],
     },
