@@ -269,6 +269,8 @@ import {
   const projects = [
     {
       name: "SwipeConnect",
+      primaryCategory: "Software Development",
+      secondaryCategory: null, 
       description:
         "Frontend development for an iOS swipe-based professional and academic matching app for mentorship. Use of React Native and TypeScript to implement and style swipe cards/animations, filtering, and sign-up. Worked closely with backend team to connect API endpoints created using Flask and access database configured in Python. Development in a team of five within an Agile and Scrum workflow using Jira.",
       tags: [
@@ -290,6 +292,8 @@ import {
     },
     {
       name: "Game Control Station",
+      primaryCategory: "Graphics",
+      secondaryCategory: "Software Development", // Web development and game logic
       description:
         "Design and development a 3D web-based game featuring an interactive lobby with first-person navigation into three mini-games-- each with their own artistic style and niche. Created all mini-games and gameplay logic using JavaScript and Three.js. Modeled/textured environments and assets in Blender.",
       tags: [
@@ -315,8 +319,10 @@ import {
     },
     {
       name: "Puff",
+      primaryCategory: "Graphics",
+      secondaryCategory: null, // Pure graphics project
       description:
-        "3D animated short film created over the course of three weeks. Modeling, shading/texturing, rigging, look development, animation done using Blender.",
+        "Exhibited end-to-end 3D production pipeline in Blender. Scripted and storyboarded scenes, modeled and shaded 15+ assets, built rigs, and animated a 2-minute short film.",
       tags: [
         {
           name: "Blender",
@@ -328,6 +334,8 @@ import {
     },
     {
       name: "Hummer",
+      primaryCategory: "Software Development",
+      secondaryCategory: "Graphics",
       description:
         "Team lead for a UI/UX case study: a music-oriented social media app. Conducted public opinion research to identify key app features and user interface preferences. Collaborated in a team of six to design and prototype the social media platform using Figma, emphasizing user experience and engagement-driven design.",
       tags: [
@@ -349,6 +357,8 @@ import {
     },
     {
       name: "Mortgage-Backed Securities Management System",
+      primaryCategory: "Data Science",
+      secondaryCategory: "Software Development",
       description:
         "Backend development of a Java application using JDBC and PostgreSQL to package mortgages into Mortgage-Backed Securities. Implemented advanced filtering capabilities across multiple mortgage attributes, dynamic rate calculations, and secure transactional updates based on a NJ mortgage database.",
       tags: [
@@ -370,6 +380,8 @@ import {
     },
     {
       name: "Pathfinding Bot & Neural Network",
+      primaryCategory: "Data Science",
+      secondaryCategory: "Software Development", // Algorithm implementation
       description:
         "Designed a command-line-based dynamic grid environment and developed an autonomous bot utilizing advanced search algorithms to assess safety probabilities and navigate towards a fire-alarm button. Collected behavioral data from the bot's navigation patterns and trained a neural network model to predict optimal moves based on grid layout, bot position, and probabilistic knowledge.",
       tags: [
@@ -389,29 +401,10 @@ import {
       image: projectImages.bot,
       source_code_link: "https://drive.google.com/drive/folders/1_hGu-Yv-j4erPzskuojgiDkbJEV-g6qC?usp=sharing",
     },
-    // {
-    //   name: "RU Pizzeria",
-    //   description:
-    //     "Android-based application to manage pizza orders, enabling staff to take, customize, and track orders efficiently. Implemented features for dynamic subtotal calculation and customizable 'Build Your Own' pizzas. Ensured an intuitive GUI for selecting pizza styles, sizes, and toppings, while maintaining real-time order updates.",
-    //   tags: [
-    //     {
-    //       name: "Java",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "AndroidStudio",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "JavaFX",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: projectImages.rupizzeria,
-    //   source_code_link: "https://gitfront.io/r/amithi26/njnkUH98Tc8t/rupizzaapp3/",
-    // },
     {
       name: "Disco-Pixel Effect with Webcam Feed",
+      primaryCategory: "Graphics",
+      secondaryCategory: "Software Development", // Real-time processing
       description:
         "Real-time pixelation effect for webcam video using Python and OpenCV, with interactive controls for grid size and color channels. Users can adjust the pixel grid and toggle color channels (red, green, blue) while applying a customizable filled or unfilled circle pattern for the effect.",
       tags: [
@@ -429,6 +422,8 @@ import {
     },
     {
       name: "Dystopian Escapism",
+      primaryCategory: "Graphics",
+      secondaryCategory: null, // Pure visual effects project
       description:
         "A dynamic visual effects composition created in Adobe After Effects, combining planar and 3D tracking, rotobrush, mask animation, and advanced color correction techniques. Set in a dystopian futuristic enviornment (and base footage filmed by me), the scene integrates tracked elements seamlessly into a 3D environment, with precise masking and effect keyframing to enhance realism.",
       tags: [
