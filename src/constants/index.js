@@ -177,6 +177,7 @@ import {
       title: "Summer Learning Mentee",
       company_name: "Academy Software Foundation",
       icon: aswf,
+      demoReelUrl: "https://drive.google.com/file/d/1CJBwuG9XoK_IftsnEcJHEP_WjbjX45FF/view?usp=sharing",
       iconBg: "#E6DEDD",
       date: "June 2025 - Current",
       points: [
