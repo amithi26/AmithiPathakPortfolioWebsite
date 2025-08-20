@@ -185,7 +185,7 @@ import {
         "Mentored and attended talks by industry professionals from leading studios such as ILM, Pixar, Disney, DreamWorks, CoSA VFX.",
         "Coursework and professional mentorship in computer graphics and VFX/animation production pipelines and technology.",
         "Developed a procedural modeling tool for tree branches for Maya using PyQt libraries and Python scripting.",
-        "Developed a procedural turntable tool in Houdini for dynamic enviornment and lighting setups.",
+        "Developed a procedural turntable tool in Houdini for dynamic environment and lighting setups.",
         "Program in collaboration with the Academy of Motion Picture Arts and Sciences and Linux."
       ],
     },
@@ -205,7 +205,7 @@ import {
     },
     {
       title: "Research Assistant",
-      company_name: "Laboratory for Interactive Virtual Enviornments",
+      company_name: "Laboratory for Interactive Virtual Environments",
       icon: rutgers,
       iconBg: "#E6DEDD",
       date: "May 2024 - September 2024",
@@ -426,7 +426,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: null, // Pure visual effects project
       description:
-        "A dynamic visual effects composition created in Adobe After Effects, combining planar and 3D tracking, rotobrush, mask animation, and advanced color correction techniques. Set in a dystopian futuristic enviornment (and base footage filmed by me), the scene integrates tracked elements seamlessly into a 3D environment, with precise masking and effect keyframing to enhance realism.",
+        "A dynamic visual effects composition created in Adobe After Effects, combining planar and 3D tracking, rotobrush, mask animation, and advanced color correction techniques. Set in a dystopian futuristic environment (and base footage filmed by me), the scene integrates tracked elements seamlessly into a 3D environment, with precise masking and effect keyframing to enhance realism.",
       tags: [
         {
           name: "AfterEffects",
