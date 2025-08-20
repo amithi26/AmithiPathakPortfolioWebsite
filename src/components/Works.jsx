@@ -12,12 +12,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         options={isMobile ? { max: 0, scale: 1, speed: 0 } : { max: 45, scale: 1, speed: 450 }} // Disable tilt on mobile
         className="bg-tertiary p-4 sm:p-5 rounded-2xl w-full h-full min-h-[380px] flex flex-col" // Added responsive padding and min-height
       >
-        {/* Category indicator */}
-        {!isPrimary && (
-          <div className="absolute top-2 left-2 bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs z-10">
-            Secondary
-          </div>
-        )}
+        
         
         <div className="relative w-full h-[200px] sm:h-[230px] flex-shrink-0"> {/* Responsive image height */}
           <img
@@ -131,7 +126,7 @@ const Works = () => {
   console.log('Secondary matches:', filteredProjects.filter(p => !p.isPrimary).length);
 
   return (
-    <div key={selectedCategory}> {/* Force complete re-render when category changes */}
+    <div> {/* Force complete re-render when category changes */}
       <div>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
@@ -155,7 +150,7 @@ const Works = () => {
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
-            className={`px-10 py-4 rounded-full text-m font-medium transition-all duration-200
+            className={`px-10 py-3 rounded-full text-m font-medium transition-all duration-200
               ${selectedCategory === cat ? "bg-purple-600 text-white" : "bg-gray-800 text-gray-300 hover:bg-gray-700"}`}
           >
             {cat.charAt(0).toUpperCase() + cat.slice(1).replace('-', ' ')}
