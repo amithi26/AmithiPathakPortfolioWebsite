@@ -334,6 +334,48 @@ import {
       source_code_link: "https://vimeo.com/1083689911/815addab70",
     },
     {
+      name: "Procedural Tree Modeling Tool",
+      primaryCategory: "Graphics",
+      secondaryCategory: "Software Development",
+      description:
+        "A custom Maya tool built with Python and PyQt for generating procedural tree branches. Allows artists to quickly create natural-looking branches with adjustable parameters such as length, thickness, tapering, sub-branch count, angle, and randomness of branches.",
+      tags: [
+        {
+          name: "Maya",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "PyQt",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: projectImages.procedural_tree_branch,
+      source_code_link: "https://github.com/amithi26/Maya-Toolbuilding/blob/main/treeBranch.py",
+    },
+    {
+      name: "Dynamic Turntable Enviornment Tool",
+      primaryCategory: "Graphics",
+      secondaryCategory: "Software Development",
+      description:
+        "Python-driven UI in Houdini to dynamically switch EXR/HDRI environments and lighting setups, including custom-modeled and shaded turntable platforms matched to each environment for consistent character presentation.",
+      tags: [
+        {
+          name: "Houdini",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: projectImages.turntable,
+      source_code_link: null,
+    },
+    {
       name: "Hummer",
       primaryCategory: "Software Development",
       secondaryCategory: "Graphics",
@@ -401,6 +443,25 @@ import {
       ],
       image: projectImages.bot,
       source_code_link: "https://drive.google.com/drive/folders/1_hGu-Yv-j4erPzskuojgiDkbJEV-g6qC?usp=sharing",
+    },
+    {
+      name: "Political Turmoil and Artistic Excellence: Analyzing Government and Cultural Reception",
+      primaryCategory: "Data Science",
+      secondaryCategory: null,
+      description:
+        "Data-driven analysis of the correlation between U.S. government trust (Pew Research) and film/music trends (IMDb/Billboard) using R, merging datasets and visualizing trends to explore societal dissatisfaction's impact on art's subjective quality.",
+      tags: [
+        {
+          name: "R",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "DataVisualization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: projectImages.data,
+      source_code_link: "data.html",
     },
     {
       name: "Disco-Pixel Effect with Webcam Feed",

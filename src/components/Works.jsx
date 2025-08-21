@@ -20,18 +20,21 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-2 sm:m-3 card-img_hover"> {/* Responsive margin */}
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-8 h-8 sm:w-10 sm:h-10 rounded-full flex justify-center items-center cursor-pointer" // Responsive button size
-            >
-              <img 
-                src={externallink}
-                alt="external link"
-                className="w-1/2 h-1/2"
-              />
+          {source_code_link && (
+            <div className="absolute inset-0 flex justify-end m-2 sm:m-3 card-img_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-8 h-8 sm:w-10 sm:h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img 
+                  src={externallink}
+                  alt="external link"
+                  className="w-1/2 h-1/2"
+                />
+              </div>
             </div>
-          </div>
+          )}
+
         </div>
 
         <div className="mt-4 sm:mt-5 flex-grow"> {/* Responsive margin and flex-grow for equal height */}
@@ -82,7 +85,6 @@ const Works = () => {
         project.name && 
         project.description && 
         project.image && 
-        project.source_code_link &&
         project.primaryCategory // Ensure primary category exists
       );
       

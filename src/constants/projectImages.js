@@ -9,7 +9,10 @@ import {
   rupizzeria,
   pixelEffect,
   dystopian,
-  painter
+  painter,
+  procedural_tree_branch,
+  turntable,
+  data
 } from "../assets";
 
 export const projectImages = {
@@ -22,5 +25,8 @@ export const projectImages = {
   rupizzeria,
   pixelEffect,
   dystopian,
-  painter
+  painter,
+  procedural_tree_branch,
+  turntable,
+  data
 };

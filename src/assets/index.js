@@ -67,6 +67,10 @@ import externallink from "./external-link.png";
 import swipeConnect from "./swipeConnect.png";
 import gameControlStation from "./lobby.png";
 import puff from "./puff_preview.png";
+import procedural_tree_branch from "./procedural_tree_branch.png";
+import turntable from "./turntable.png";
+import data from "./data.png";
+
 
 export {
   logo,
@@ -128,5 +132,8 @@ export {
   csharp,
   unity,
   pytorch,
-  houdini
+  houdini,
+  procedural_tree_branch,
+  turntable,
+  data
 };
