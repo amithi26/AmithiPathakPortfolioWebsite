@@ -461,7 +461,7 @@ import {
         },
       ],
       image: projectImages.data,
-      source_code_link: "data.html",
+      source_code_link: "/data.html",
     },
     {
       name: "Disco-Pixel Effect with Webcam Feed",
