@@ -44,6 +44,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import aswf from "./company/academysoftwarefoundation.png";
 import winlab from "./company/winlab.png";
+import graphite from "./company/graphite.png";
+import rufp from "./company/RUFP.png";
 
 
 import rutgers from "./company/rutgers.png";
@@ -135,5 +137,7 @@ export {
   houdini,
   procedural_tree_branch,
   turntable,
-  data
+  data,
+  graphite,
+  rufp
 };

@@ -43,7 +43,9 @@ import {
     csharp,
     unity,
     houdini,
-    pytorch
+    pytorch,
+    graphite,
+    rufp
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -179,7 +181,7 @@ import {
       icon: aswf,
       demoReelUrl: "https://drive.google.com/file/d/1CJBwuG9XoK_IftsnEcJHEP_WjbjX45FF/view?usp=sharing",
       iconBg: "#E6DEDD",
-      date: "June 2025 - Current",
+      date: "June 2025 - August 2025",
       points: [
         "Among 20 individuals accepted worldwide to explore open-source software development for visual effects and animation in film.",
         "Mentored and attended talks by industry professionals from leading studios such as ILM, Pixar, Disney, DreamWorks, CoSA VFX.",
@@ -194,13 +196,23 @@ import {
       company_name: "WINLAB Rutgers",
       icon: winlab,
       iconBg: "#E6DEDD",
-      date: "May 2025 - Current",
+      date: "May 2025 - August 2025",
       points: [
         "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
         "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a  in a Linux VM for real-time interaction.",
         "Restructure of existing database (LevelDB) to accommodate newer features such as multiple drawing spaces.",
         "Presented weekly progress updates to supervisors and stakeholders, monitoring project milestones.",
         "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
+      ],
+    },
+    {
+      title: "Co-President, Founder",
+      company_name: "GRAPHiTE: Graphics in Technology Rutgers",
+      icon: graphite,
+      iconBg: "#E6DEDD",
+      date: "May 2025 - Current",
+      points: [
+        "Led university-wide initiative to educate students within the computer graphics and creative technology fields through 3D modeling/pipeline workshops, professional panels, VFX/animation screenings, and student films."
       ],
     },
     {
@@ -213,6 +225,18 @@ import {
         "Study of contact simulation in rigid body simulations using 3D graphics.",
         "Use of Dafny to prove correctness of the widely used physics-based skinning algorithm based on quaternions.",
         "Explored and applied 3D character animation utilizing Three.js and HTML.",
+      ],
+    },
+    {
+      title: "Scretary, Director of Photography, Production Designer",
+      company_name: "Rutgers University Film Productions",
+      icon: rufp,
+      iconBg: "#E6DEDD",
+      date: "September 2023 - May 2025",
+      points: [
+        "Held multiple creative and organizational roles across several RUFP productions..",
+        "As Director of Photography, led visual storytelling through camera work, lighting, and shot composition.",
+        "As Production Designer, shaped visuals through set design and art direction.",
       ],
     },
     {
