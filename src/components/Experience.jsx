@@ -35,7 +35,7 @@ const ExperienceCard = ({experience}) => (
       ))}
     </ul>
 
-    {/* Demo Reel Button - Only show if demoReelUrl exists */}
+    {/* Demo Reel / Research Poster Button */}
     {experience.demoReelUrl && (
       <div className="mt-6 flex justify-center">
         <a
@@ -44,10 +44,16 @@ const ExperienceCard = ({experience}) => (
           rel="noopener noreferrer"
           className="inline-flex items-center px-14 py-3 bg-[#bb00ff] bg-opacity-25 text-white font-semibold text-[14px] rounded-full hover:bg-opacity-40 transition-all duration-300 transform hover:shadow-lg hover:shadow-xl"
         >
-          View Demo Reel
+          {experience.title === "Summer Learning Mentee"
+            ? "View Demo Reel"
+            : experience.title === "AR Research Intern"
+            ? "View Research Poster/Presentation"
+            : "View Demo"}
         </a>
       </div>
     )}
+
+
 
   </VerticalTimelineElement>
 )

@@ -195,6 +195,7 @@ import {
       title: "AR Research Intern",
       company_name: "WINLAB Rutgers",
       icon: winlab,
+      demoReelUrl: "https://www.orbit-lab.org/wiki/Other/Summer/2025/OH2025#P20",
       iconBg: "#E6DEDD",
       date: "May 2025 - August 2025",
       points: [
