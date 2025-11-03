@@ -526,6 +526,29 @@ import {
       image: projectImages.dystopian,
       source_code_link: "https://vimeo.com/1037275982?share=copy",
     },
+    {
+      name: "\"Painter\"",
+      primaryCategory: "Graphics",
+      secondaryCategory: null,
+      description:
+        "Production design, story development, & cinematography for a short psychological drama. Executed camera operations and designed set elements, including an acrylic painting, to reinforce themes and moods, achieving a nuanced and immersive aesthetic.",
+      tags: [
+        {
+          name: "ProductionDesign",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AcrylicArt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Cinematography",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: projectImages.painter,
+      source_code_link: "https://youtu.be/mQ2ftOX-IUQ?si=RZWnIUva2MpVjSVu",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
