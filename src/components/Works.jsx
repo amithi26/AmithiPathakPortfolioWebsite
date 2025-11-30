@@ -136,7 +136,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <p className="mt-3 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[26px] sm:leading-[30px]">
-          Explore my programming and creative projects, where I demonstrate my skills through real-world applications. 
+          Explore my 9 programming and creative projects, where I demonstrate my skills through real-world applications. 
           Each project is accompanied by a brief description, along with links, videos, 
           and other relevant resources to provide deeper insights into my work.
           {selectedCategory !== "all" && (
@@ -148,7 +148,7 @@ const Works = () => {
       </div>
 
       <div className="flex flex-wrap gap-3 mt-8">
-        {["all", "Graphics", "Software Development", "Data Science"].map(cat => (
+        {["all", "Interactive Software & Tools", "Graphics & Animation", "UX & Research"].map(cat => (
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
