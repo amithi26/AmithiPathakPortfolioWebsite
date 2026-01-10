@@ -24,7 +24,7 @@ const Hero = () => {
             Developer · Designer · Innovator
           </p>
           <a
-            href="https://drive.google.com/file/d/1RzR4JOuoHCWh5o2zwoPwrwsw1YfaLjgh/view?usp=sharing"
+            href="https://drive.google.com/file/d/19LdHrXGFcLRNsRfgT6Vmw1D63cgj5AQH/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-[#bb00ff] bg-opacity-40 border-2 border-[#fc7805] border-opacity-0 text-white text-lg font-medium rounded-lg hover:shadow-[0_0_15px_4px_rgba(187,0,255,0.4)] hover:bg-[#b700ff] hover:bg-opacity-80 hover:border-opacity-0 transition-all duration-300 transform hover:scale-102"

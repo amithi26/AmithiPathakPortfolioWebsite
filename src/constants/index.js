@@ -176,6 +176,22 @@ import {
   
   const experiences = [
     {
+      title: "AR Research Intern",
+      company_name: "WINLAB Rutgers",
+      icon: winlab,
+      demoReelUrl: "https://www.orbit-lab.org/wiki/Other/Summer/2025/OH2025#P20",
+      iconBg: "#E6DEDD",
+      date: "May 2025 - December 2025",
+      points: [
+        "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
+        "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a  in a Linux VM for real-time synchronization.",
+        "Identified critical performance bottlenecks and redesigned project backend, migrating from LevelDB to PostgreSQL.",
+        "Architected new database schema and optimized data access patterns, achieving 73% latency reduction for real-time AR collaboration.",
+        "Presented weekly progress updates and a final research poster to supervisors and stakeholders.",
+        "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
+      ],
+    },
+    {
       title: "Summer Learning Mentee",
       company_name: "Academy Software Foundation",
       icon: aswf,
@@ -192,28 +208,15 @@ import {
       ],
     },
     {
-      title: "AR Research Intern",
-      company_name: "WINLAB Rutgers",
-      icon: winlab,
-      demoReelUrl: "https://www.orbit-lab.org/wiki/Other/Summer/2025/OH2025#P20",
-      iconBg: "#E6DEDD",
-      date: "May 2025 - August 2025",
-      points: [
-        "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
-        "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a  in a Linux VM for real-time interaction.",
-        "Restructure of existing database (LevelDB) to accommodate newer features such as multiple drawing spaces.",
-        "Presented weekly progress updates to supervisors and stakeholders, monitoring project milestones.",
-        "Design and implementation of AR/VR curriculum for a Rutgers University certification program.",
-      ],
-    },
-    {
       title: "Co-President, Founder",
       company_name: "GRAPHiTE: Graphics in Technology Rutgers",
       icon: graphite,
       iconBg: "#E6DEDD",
       date: "May 2025 - Current",
       points: [
-        "Led university-wide initiative to educate students within the computer graphics and creative technology fields through 3D modeling/pipeline workshops, professional panels, VFX/animation screenings, and student films."
+        "Led university-wide initiative to educate students within the computer graphics and creative technology fields.",
+        "Presentations about technical opportunities in creative industries across hackathons and club fairs.",
+        "3D modeling/pipeline workshops, professional panels, VFX/animation screenings, and student films."
       ],
     },
     {
@@ -223,9 +226,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2024 - September 2024",
       points: [
-        "Study of contact simulation in rigid body simulations using 3D graphics.",
-        "Use of Dafny to prove correctness of the widely used physics-based skinning algorithm based on quaternions.",
-        "Explored and applied 3D character animation utilizing Three.js and HTML.",
+        "Study of contact simulation and formal methods of verifying skinning algorithms.",
+        "Use of Dafny to prove correctness of linear blend and dual quaternion skinning.",
+        "Visualized concepts by utilizing Three.js and HTML to build a simulation and UI to manipulate joint rotations.",
       ],
     },
     {
@@ -235,9 +238,10 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2023 - May 2025",
       points: [
-        "Held multiple creative and organizational roles across several RUFP productions..",
-        "As Director of Photography, led visual storytelling through camera work, lighting, and shot composition.",
-        "As Production Designer, shaped visuals through set design and art direction.",
+        "Held multiple creative and organizational roles across several RUFP productions.",
+        "As Secretary, tracked production decisions, facilitated communication amongst crew, scheduled shoots, casting, and meetings.",
+        "As Production Designer for a psychological drama, shaped visuals through set design, lighting, camerawork, and art direction. Created an original acrylic painting used as a central visual motif in the film.",
+        "As Director of Photography for a buddy comedy, led storytelling through storyboarding, shot composition, and camerawork.",
       ],
     },
     {
@@ -249,6 +253,7 @@ import {
       points: [
         "Designer and organizer for Rutgers University's largest hackathon.",
         "Defined & designed thematic elements for the event's website, social media and other promotional material using Figma and Autodesk Sketch.",
+        "Content reached an online audience of 2K+ and resulted in over 800 student registrations.",
         "Collaborated with cross-functional teams including fellow designers, marketing teams, and developers to create high-quality content.",
       ],
     },
@@ -298,7 +303,7 @@ import {
       primaryCategory: "Software Development",
       secondaryCategory: null, 
       description:
-        "Frontend development for an iOS swipe-based professional and academic matching app for mentorship. Use of React Native and TypeScript to implement and style swipe cards/animations, filtering, and sign-up. Worked closely with backend team to connect API endpoints created using Flask and access database configured in Python. Development in a team of five within an Agile and Scrum workflow using Jira.",
+        "Coming into a university with over 70,000 students, it's hard to know how to navigate success. Four of my classmates and I aimed to outline a solution for this. SwipeConnect is an iOS mentorship-matching app designed to make professional connections feel intuitive and human through a familiar swiping interface. I led the frontend development, building the swipe interface and animations, interest and organization-based filtering, and onboarding flow in React Native. Working closely with backend developers, I integrated Flask API endpoints and database connections, delivering a responsive matching experience within a Scrum Agile team using Jira. I also helped perform black-box testing of all major user flows, verifying functionality without inspecting internal code to ensure feature correctness in production-like conditions.",
       tags: [
         {
           name: "ReactNative",
@@ -321,7 +326,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: "Software Development", // Web development and game logic
       description:
-        "Design and development a 3D web-based game featuring an interactive lobby with first-person navigation into three mini-games-- each with their own artistic style and niche. Created all mini-games and gameplay logic using JavaScript and Three.js. Modeled/textured environments and assets in Blender.",
+        "Inspired by Wreck-It Ralph’s Game Central Station, this project creates a unified 3D hub world that connects multiple mini-games through a single interactive experience. I developed first-person navigation in Three.js that acts as a dynamic level-selector, using ray casting, and collision systems to transition players within the lobby and into one of three mini-games. Each mini-game features its own mechanics and artistic style implemented with JavaScript. All models (including the train station itself), shading, and lighting setups were created using Blender and Three.js.",
       tags: [
         {
           name: "JavaScript",
@@ -348,7 +353,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: null, // Pure graphics project
       description:
-        "Exhibited end-to-end 3D production pipeline in Blender. Scripted and storyboarded scenes, modeled and shaded 15+ assets, built rigs, and animated a 2-minute short film.",
+        "This project grew from a childhood memory: biting into my mom’s fresh puri and imagining an entire universe hidden within its puffy shell. I transformed this memory into a fully realized 2-minute 3D short film, created through an end-to-end production pipeline in Blender. I drew out concept art, scripted and storyboarded scenes, modeled and shaded 15+ assets, built character rigs, and animated and edited every shot to bring my childhood world to life.",
       tags: [
         {
           name: "Blender",
@@ -363,7 +368,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: "Software Development",
       description:
-        "A custom Maya tool built with Python and PyQt for generating procedural tree branches. Allows artists to quickly create natural-looking branches with adjustable parameters such as length, thickness, tapering, sub-branch count, angle, and randomness of branches.",
+        "A custom Maya tool built in Python and PyQt for generating procedural tree branches, designed to streamline the asset creation process for artists. The tool allows users to quickly produce natural-looking branches with adjustable parameters including length, thickness, tapering, number of sub-branches, angles, and randomized variations. Aimed to reduce manual modeling time while maintaining artistic flexibility.",
       tags: [
         {
           name: "Maya",
@@ -386,7 +391,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: "Software Development",
       description:
-        "Python-driven UI in Houdini to dynamically switch EXR/HDRI environments and lighting setups, including custom-modeled and shaded turntable platforms matched to each environment for consistent character presentation.",
+        "A Python-driven UI in Houdini for dynamically switching HDRI environments to previsualize characters in a variety of lighting and environment setups. Each environment is paired with a custom-modeled and shaded turntable platform, ensuring consistent character presentation. This tool streamlines the workflow for artists, allowing rapid iteration and comparison across multiple lighting scenarios.",
       tags: [
         {
           name: "Houdini",
@@ -405,7 +410,7 @@ import {
       primaryCategory: "Software Development",
       secondaryCategory: "Graphics",
       description:
-        "Team lead for a UI/UX case study: a music-oriented social media app. Conducted public opinion research to identify key app features and user interface preferences. Collaborated in a team of six to design and prototype the social media platform using Figma, emphasizing user experience and engagement-driven design.",
+        "Two of my forever loves are movies and music: they foster communities and form friendships. Anyone who knows me can attest to my love for the app Letterboxd, a social media platform for rating and reviewing films that brings together people of diverse backgrounds and stories through storytelling itself. Inspired by this idea of specialized shared digital experience, I became team lead for a UI/UX case study for a music-focused social media app. I conducted public opinion research to identify key features and interface preferences, then collaborated with a team of six to design low and high-fidelity wireframes, and eventually prototype and present the platform in Figma.",
       tags: [
         {
           name: "Figma",
@@ -474,7 +479,7 @@ import {
       primaryCategory: "Data Science",
       secondaryCategory: null,
       description:
-        "Data-driven analysis of the correlation between U.S. government trust (Pew Research) and film/music trends (IMDb/Billboard) using R, merging datasets and visualizing trends to explore societal dissatisfaction's impact on art's subjective quality.",
+        "There’s a long-standing notion that great art often emerges from societal frustration or dissatisfaction. In this project, I conducted a data-driven analysis of the relationship between U.S. government trust (Pew Research) and trends in film and music ratings (IMDb/Billboard). Using R, I merged multiple datasets and visualized patterns to explore how societal dissatisfaction may influence the subjective and perceived quality and popularity of cultural works. The study highlights the intersection of politics, culture, and the arts through quantitative analysis.",
       tags: [
         {
           name: "R",
@@ -493,7 +498,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: "Software Development", // Real-time processing
       description:
-        "Real-time pixelation effect for webcam video using Python and OpenCV, with interactive controls for grid size and color channels. Users can adjust the pixel grid and toggle color channels (red, green, blue) while applying a customizable filled or unfilled circle pattern for the effect.",
+        "This project began as a tool to help me visualize larger shapes and color compositions when drawing and painting; essentially a way to step back and see the big picture without getting lost in distracting details. I built a real-time pixelation system using Python and OpenCV, allowing users to adjust grid size and toggle color channels to explore how color perception changes at different resolutions. The interactive, live-feedback nature of the tool turned it into a playful experiment in color, abstraction, and real-time systems.",
       tags: [
         {
           name: "Python",
@@ -512,7 +517,7 @@ import {
       primaryCategory: "Graphics",
       secondaryCategory: null, // Pure visual effects project
       description:
-        "A dynamic visual effects composition created in Adobe After Effects, combining planar and 3D tracking, rotobrush, mask animation, and advanced color correction techniques. Set in a dystopian futuristic environment (and base footage filmed by me), the scene integrates tracked elements seamlessly into a 3D environment, with precise masking and effect keyframing to enhance realism.",
+        "The courtyard of my school’s Mathematical Sciences building always felt depressing: brutalist architecture, yellowing concrete, and a lack of greenery made it feel more like a dystopian world than a university quad. This project brings my bleakest imagination to life and transforms that environment into a dynamic visual effects composition created in Adobe After Effects. I combined planar and 3D tracking/compositing, Rotobrush, mask animation, and advanced color correction techniques to integrate external elements and my filmed footage into a dystopian 3D environment.",
       tags: [
         {
           name: "AfterEffects",
