@@ -184,7 +184,7 @@ import {
       date: "May 2025 - December 2025",
       points: [
         "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
-        "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a  in a Linux VM for real-time synchronization.",
+        "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a Linux VM for real-time synchronization.",
         "Identified critical performance bottlenecks and redesigned project backend, migrating from LevelDB to PostgreSQL.",
         "Architected new database schema and optimized data access patterns, achieving 73% latency reduction for real-time AR collaboration.",
         "Presented weekly progress updates and a final research poster to supervisors and stakeholders.",
