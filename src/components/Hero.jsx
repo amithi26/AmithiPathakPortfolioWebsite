@@ -21,7 +21,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#b700ff]">Amithi!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 mb-6`}>
-            Developer · Designer · Innovator
+            Developer · Designer · Storyteller
           </p>
           <a
             href="https://drive.google.com/file/d/19LdHrXGFcLRNsRfgT6Vmw1D63cgj5AQH/view?usp=sharing"
