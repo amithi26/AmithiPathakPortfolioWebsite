@@ -15,7 +15,7 @@ const Tech = () => {
       ['React', 'Three.js', 'Tailwind CSS', 'PyTorch'].includes(tech.name)
     ),
     dcc: technologies.filter(tech => 
-      ['Blender', 'Maya', 'After Effects', 'Figma', 'Unity', "Houdini"].includes(tech.name)
+      ['Blender', 'Maya', 'After Effects', 'Figma', 'Unreal Engine', 'Unity', "Houdini"].includes(tech.name)
     )
   };
 

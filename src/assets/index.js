@@ -37,6 +37,7 @@ import R from "./tech/R.png";
 import C from "./tech/C.png";
 import csharp from "./tech/csharp.svg";
 import pytorch from "./tech/pytorch.png";
+import unreal from "./tech/unreal-engine.png";
 
 
 import meta from "./company/meta.png";
@@ -141,5 +142,6 @@ export {
   data,
   graphite,
   rufp,
-  nasa
+  nasa,
+  unreal
 };

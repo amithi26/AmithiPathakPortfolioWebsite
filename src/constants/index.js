@@ -46,7 +46,8 @@ import {
     pytorch,
     graphite,
     rufp,
-    nasa
+    nasa,
+    unreal
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -173,6 +174,11 @@ import {
       name: "Houdini",
       icon: houdini,
     },
+    {
+      name: "Unreal Engine",
+      icon: unreal,
+    },
+
   ];
   
   const experiences = [
