@@ -46,6 +46,7 @@ import aswf from "./company/academysoftwarefoundation.png";
 import winlab from "./company/winlab.png";
 import graphite from "./company/graphite.png";
 import rufp from "./company/RUFP.png";
+import nasa from "./company/nasa.png";
 
 
 import rutgers from "./company/rutgers.png";
@@ -139,5 +140,6 @@ export {
   turntable,
   data,
   graphite,
-  rufp
+  rufp,
+  nasa
 };

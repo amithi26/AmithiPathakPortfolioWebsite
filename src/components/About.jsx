@@ -34,7 +34,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Hello there! I am a computer science student with a passion for blending technology, storytelling, and visual art to build immersive digital experiences. As both a developer and artist, I strive to build intuitive, expressive tools and worlds that bridge creativity and code, from developing real-time AR platforms and games to producing animated films and designing brand visuals.
+        Hello there! I am a computer graphics student with a passion for blending technology, storytelling, and visual arts to build immersive digital experiences. As both a developer and artist, I strive to build intuitive, expressive tools and worlds that bridge creativity and code. My work spans developing real-time AR/VR platforms, tinkering with virtual production setups, building artist tools for VFX/animation, creating my own films, analyzing data trends, and designing brand visuals.
         <br />
         <br />
         Scroll on to see where logic meets magic!

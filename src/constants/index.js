@@ -45,7 +45,8 @@ import {
     houdini,
     pytorch,
     graphite,
-    rufp
+    rufp,
+    nasa
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -78,12 +79,12 @@ import {
       icon: softdev,
     },
     {
-      title: "UI/UX & Graphic Design",
-      icon: design,
-    },
-    {
       title: "VFX & Animation",
       icon: vfx,
+    },
+    {
+      title: "UI/UX & Graphic Design",
+      icon: design,
     },
     {
       title: "Data Science",
@@ -175,6 +176,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "AR/VR/XR Development Intern",
+      company_name: "NASA Glenn Research Center",
+      icon: nasa,
+      iconBg: "#E6DEDD",
+      date: "June 2026 - August 2026",
+      points: [
+        "Researched, explored, and documented the capabilities of Unreal 5.7.4 technologies for integration into the Graphics and Visualization (GVIS) Lab's workflow across two projects:",
+        "Introduced Unreal Engine's nDisplay as a streamlined alternative to the lab's existing 4-instance Unity-based CAVE workflow, reducing system complexity to a single instance. Applied perspective projection and motion-tracking principles and mapped coordinate system alignment with DTrack. Built a working prototype and authored technical documentation, establishing the foundation for the lab's ongoing nDisplay development.",
+        "Independently ideated and executed an interactive VR visualization of a Lunar Base for Meta Quest 3, using ESA's Unreal XR Plugin and Blueprint visual scripting. Modeled and textured 3D assets in Blender; designed the Unreal environment, integrating external CAD assets. Configured an AI assistant via ESA's built-in plugin support to deliver real-time information on lunar rock samples to users. Personally exhibited the project to 15+ NASA employees at center-wide VR showcase event.",
+        "Delivered VR/XR-focused lab tours and outreach presentations to audiences ranging from schoolchildren to research scientists and industry professionals, translating technical concepts into accessible demonstrations.",
+      ],
+    },
     {
       title: "AR Research Intern",
       company_name: "WINLAB Rutgers",
