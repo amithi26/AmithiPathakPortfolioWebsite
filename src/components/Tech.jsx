@@ -9,7 +9,7 @@ const Tech = () => {
   // Categorize your specific technologies
   const categorizedTech = {
     programming: technologies.filter(tech => 
-      ['Python', 'Java', 'JavaScript', 'HTML 5', 'C', 'C#', 'R', 'SQL', 'TypeScript', 'git'].includes(tech.name)
+      ['Python', 'Java', 'JavaScript', 'HTML 5', 'C', 'C#', 'C++', 'R', 'SQL', 'TypeScript', 'git'].includes(tech.name)
     ),
     frameworks: technologies.filter(tech => 
       ['React', 'Three.js', 'Tailwind CSS', 'PyTorch'].includes(tech.name)

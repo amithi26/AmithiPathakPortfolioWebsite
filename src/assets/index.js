@@ -28,6 +28,7 @@ import blender from "./tech/Blender.png";
 import maya from "./tech/maya.png";
 import unity from "./tech/unity.webp";
 import houdini from "./tech/houdini.png";
+import cpp from "./tech/Cpp.svg.webp";
 
 import java from "./tech/java.png";
 import python from "./tech/python.svg";
@@ -143,5 +144,6 @@ export {
   graphite,
   rufp,
   nasa,
-  unreal
+  unreal,
+  cpp
 };

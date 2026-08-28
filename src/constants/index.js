@@ -47,7 +47,8 @@ import {
     graphite,
     rufp,
     nasa,
-    unreal
+    unreal,
+    cpp
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -161,6 +162,10 @@ import {
     {
       name: "C#",
       icon: csharp,
+    },
+    {
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "TypeScript",
