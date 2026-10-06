@@ -47,8 +47,8 @@ const ExperienceCard = ({experience}) => (
           {experience.title === "Summer Learning Mentee"
             ? "View Demo Reel"
             : experience.title === "AR Research Intern"
-            ? "View Research Poster/Presentation"
-            : "View Demo"}
+            ? "View Research (Bottom of Page)"
+            : "View Demo" }
         </a>
       </div>
     )}

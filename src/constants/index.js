@@ -192,6 +192,7 @@ import {
       company_name: "NASA Glenn Research Center",
       icon: nasa,
       iconBg: "#E6DEDD",
+      demoReelUrl: "https://vimeo.com/1233414146?share=copy",
       date: "June 2026 - August 2026",
       points: [
         "Researched, explored, and documented the capabilities of Unreal 5.7.4 technologies for integration into the Graphics and Visualization (GVIS) Lab's workflow across two projects:",
@@ -204,11 +205,11 @@ import {
       title: "AR Research Intern",
       company_name: "WINLAB Rutgers",
       icon: winlab,
-      demoReelUrl: "https://www.orbit-lab.org/wiki/Other/Summer/2025/OH2025#P20",
+      demoReelUrl: "https://www.cosmos-lab.org/wiki/public/summer/2025/oh2025",
       iconBg: "#E6DEDD",
       date: "May 2025 - December 2025",
       points: [
-        "Developed a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
+        "Developed AR Mural, a collaborative AR art & 3D modeling platform on Microsoft HoloLens using Unity and C# scripting.",
         "Implemented multi-user drawing spaces, undo/redo functionality, and player avatars with MQTT server networking in a Linux VM for real-time synchronization.",
         "Identified critical performance bottlenecks and redesigned project backend, migrating from LevelDB to PostgreSQL.",
         "Architected new database schema and optimized data access patterns, achieving 73% latency reduction for real-time AR collaboration.",
