@@ -48,7 +48,8 @@ import {
     rufp,
     nasa,
     unreal,
-    cpp
+    cpp,
+    mario
   } from "../assets";
   import { projectImages } from "./projectImages";
   
@@ -324,6 +325,31 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Procedural Disintegration Shader",
+      primaryCategory: "Graphics",
+      description:
+        "Built a procedural burn-and-dissolve effect for a textured 3D model using custom GLSL shaders in C++, Qt, and OpenGL. The model heats to an orange glow, then breaks apart into drifting chunks, with Worley noise and fractal Brownian motion controlling how the dissolve spreads across the surface. Added a full-screen Sobel edge-detection post-processing pass as a stylized option.",
+      tags: [
+        {
+          name: "C++",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "OpenGL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GLSL",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "Qt",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: projectImages.mario
+    },
     {
       name: "SwipeConnect",
       primaryCategory: "Software Development",

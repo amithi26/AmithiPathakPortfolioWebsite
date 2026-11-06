@@ -12,7 +12,8 @@ import {
   painter,
   procedural_tree_branch,
   turntable,
-  data
+  data,
+  mario
 } from "../assets";
 
 export const projectImages = {
@@ -28,5 +29,6 @@ export const projectImages = {
   painter,
   procedural_tree_branch,
   turntable,
-  data
+  data,
+  mario
 };

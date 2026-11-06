@@ -75,6 +75,7 @@ import puff from "./puff_preview.png";
 import procedural_tree_branch from "./procedural_tree_branch.png";
 import turntable from "./turntable.png";
 import data from "./data.png";
+import mario from "./marioShader.gif";
 
 
 export {
@@ -145,5 +146,6 @@ export {
   rufp,
   nasa,
   unreal,
-  cpp
+  cpp,
+  mario
 };
